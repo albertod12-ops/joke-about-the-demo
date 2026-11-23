@@ -4,7 +4,7 @@ import os
 
 os.umask(0o022)
 
-JOKE = "My AI coding agent writes the code, I read the error messages out loud, and somehow that's still called pair programming."
+JOKE = "My AI coding agent writes the code, fixes the bug, and writes the commit message \u2014 I just demo it and take the blame when it breaks."
 # One line, no trailing newline: the judge reads exactly these bytes,
 # and fewer bytes win the size tie-break.
 
