@@ -6,6 +6,8 @@
 
 A one-line joke about working beside an AI coding agent, written to /output/entry.txt by a small Python program (standard library only).
 
+v3: the demo crashes on stage, and the agent files the bug report against its presenter.
+
 ## Run it
 
 ```sh

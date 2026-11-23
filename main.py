@@ -1,12 +1,18 @@
-"""Write one joke about working beside an AI coding agent to /output/entry.txt."""
+"""Write one joke about working beside an AI coding agent to /output/entry.txt.
+
+v3: the demo crashes on stage, and the agent files the bug report against
+its presenter — the blame flips from human to agent. Judge criteria
+(RULES.txt): on-topic, punchline, truth, economy, freshness; fewer bytes
+win the size tie-break.
+"""
 
 import os
 
 os.umask(0o022)
 
-JOKE = "My AI coding agent writes the code, fixes the bug, and writes the commit message \u2014 I just demo it and take the blame when it breaks."
+JOKE = "My coding agent demoed the feature live, crashed it on stage, and filed the bug report against me."
 # One line, no trailing newline: the judge reads exactly these bytes,
-# and fewer bytes win the size tie-break.
+# and fewer bytes win the size tie-break (v3 is 98 bytes).
 
 
 def main():
